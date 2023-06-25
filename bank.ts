@@ -1,3 +1,13 @@
+/*
+ * @Author: zhoufei1 zhoufei1@360.cn
+ * @Date: 2023-06-25 14:36:36
+ * @LastEditors: zhoufei1
+ * @LastEditTime: 2023-06-25 14:38:30
+ * @FilePath: /FridaTest/bank.ts
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
+ */
 // frida -U NFHemobileSit -l bank.ts
 // frida 脚本 for ios 
 
