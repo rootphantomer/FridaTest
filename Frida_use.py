@@ -17,11 +17,11 @@ session = frida.get_remote_device().attach("农发企业银行")
 # session = device.attach(pid)
 
 # with open("./js/cookieDump.js", "r", encoding="utf-8") as f:
-with open('./demo.js', "r", encoding="utf-8") as f:
+with open("./demo.js", "r", encoding="utf-8") as f:
     script = session.create_script(f.read())
 
 
-script.on('message', on_message)
+script.on("message", on_message)
 script.load()  # 加载脚本
 
 sys.stdin.read()
