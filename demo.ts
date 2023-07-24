@@ -12,8 +12,7 @@
 
 console.log("[*] Starting firda script");
 function bytes2hexstr_2(arrBytes) {
-  var str_hex = JSON.stringify(arrBytes);
-  return str_hex;
+  return JSON.stringify(arrBytes);
 }
 function hook_xxx() {
   Java.perform(function () {
